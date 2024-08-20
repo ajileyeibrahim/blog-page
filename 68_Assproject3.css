@@ -1,0 +1,163 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    /* display: flex; */
+    font-family: "Raleway", sans-serif;
+    color: black;
+    padding: 30px;
+    background-color: rgb(221, 218, 218);
+ 
+}
+
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+    
+
+}
+/*  */
+.khalifa1 {
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0px 0px 7px rgb(141, 139, 139);
+}
+
+.khalifa2 {
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: white;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 8px 4px 8px 4px rgb(141, 139, 139);
+}
+
+.khalifa3 {
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: white;
+    flex-direction: column;
+    margin-bottom: 20px;
+    justify-content: center;
+    padding: 10px 10px;
+    width: 100%;
+    box-shadow: 8px 4px 8px 4px rgb(141, 139, 139);
+
+}
+
+ /* .temi1 p {
+    color: rgb(187, 33, 33);
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    text-align: center; */
+/* } */
+
+img {
+    max-width: 100%;
+    align-items: center;
+
+}
+
+footer {
+    box-sizing: 100%;
+    background-color: rgb(77, 76, 76) ;
+    display: flex;
+    padding: 20px;
+    margin-bottom: 10px;
+    /* max-width: 10px; */
+}
+
+.tobi1 {        
+    width: 80px;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+    color: rgb(143, 142, 142);
+    background-color: rgb(51, 51, 51);
+}
+.container p {
+    margin-bottom: 10px;
+}
+
+.body {
+    display: flex;
+    gap: 20px;
+}
+
+.khalifa4 {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.khalifa5 {
+    width: 100%;
+    margin-top: 10px;
+}
+.w3-padding {
+    background-color: grey;
+    width: 100%;
+}
+.w3-white p{
+    margin-top: 10px;
+}
+.w3-margin {
+    margin: 0px;
+}
+.tobi2  {
+    color: rgb(231, 224, 224);
+    padding: 10px;
+    margin: 10px;
+    width: 70px;
+    justify-content: center;
+    background-color: rgb(10, 10, 10);
+}
+.tobi3 {
+    color: white;
+    display: flex;
+    margin: 20px;
+}
+
+
+
+
+.tobi1:hover {
+    background-color: rgb(102, 97, 97);
+}
+
+.tobi2:hover {
+    background-color: rgb(192, 190, 190);
+}
+
+.bello {
+    display: flex;
+    margin: 20px;
+    align-items: center;
+}
+/* 
+.khalifa4 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+
+} */
+ @media screen and (max-width:700px) {
+    .body {
+        flex-direction: column;
+    }
+ }
